@@ -1,0 +1,62 @@
+.body-background{
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, rgba(33, 150, 243, 1), rgba(156, 39, 176, 1));
+            background-size: 200% 200%;
+            animation: gradientAnimation 5s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+
+
+        .body {
+          font-family: 'YourPreferredFont', sans-serif;
+        }
+
+        /* Specific styling for headings */
+        .h1, .h2, .h3, .h4, .h5, .h6 {
+          font-family: 'YourPreferredFont', sans-serif;
+          /* Additional styling properties if needed */
+        }
+.info{
+  background: linear-gradient(to right, #3498db, #9b59b6);
+
+}
+.info2{
+  background: linear-gradient(to bottom, purple, blue);
+}
+
+
+
+.heading-font {
+  font-family: Arial, sans-serif;
+}
+
+.body-font {
+  font-family: Helvetica, sans-serif;
+}
+
+.img {
+  max-width: 100%; /* Make sure the image doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 80%; /* Adjust the maximum width for smaller screens */
+  }
+}
